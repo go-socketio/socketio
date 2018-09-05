@@ -1,4 +1,4 @@
-module github.com/zyxar/socketio
+module gopkg.in/socketio.v1
 
 require (
 	github.com/gorilla/websocket v1.3.0

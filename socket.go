@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/zyxar/socketio/engine"
+	"gopkg.in/socketio.v1/engine"
 )
 
 var (

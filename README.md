@@ -2,16 +2,16 @@
 
 [socket.io](https://socket.io/)/[engine.io](https://github.com/socketio/engine.io) implementation in Go
 
-[![GoDoc](https://godoc.org/github.com/zyxar/socketio?status.svg)](https://godoc.org/github.com/zyxar/socketio)
-[![Go Report Card](https://goreportcard.com/badge/github.com/zyxar/socketio)](https://goreportcard.com/report/github.com/zyxar/socketio)
-[![license](https://img.shields.io/badge/license-New%20BSD-ff69b4.svg)](https://github.com/zyxar/socketio/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/zyxar/socketio.svg?branch=master)](https://travis-ci.org/zyxar/socketio)
+[![GoDoc](https://godoc.org/gopkg.in/socketio.v1?status.svg)](https://godoc.org/gopkg.in/socketio.v1)
+[![Go Report Card](https://goreportcard.com/badge/github.com/go-socketio/socketio)](https://goreportcard.com/report/github.com/go-socketio/socketio)
+[![license](https://img.shields.io/badge/license-New%20BSD-ff69b4.svg)](https://github.com/go-socketio/socketio/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/go-socketio/socketio.svg?branch=master)](https://travis-ci.org/go-socketio/socketio)
 
 
 ## Install
 
 ```shell
-vgo get -v -u github.com/zyxar/socketio
+go get -v -u gopkg.in/socketio.v1
 ```
 
 ## Features
@@ -37,7 +37,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/zyxar/socketio"
+	"gopkg.in/socketio.v1"
 )
 
 func main() {
